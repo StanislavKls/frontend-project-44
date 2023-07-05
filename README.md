@@ -7,3 +7,7 @@
 ### Asciinema установки и игры Brain-even
 
 [![asciicast](https://asciinema.org/a/hE66I3KxEPK7lZZwieM9xuuCp.svg)](https://asciinema.org/a/hE66I3KxEPK7lZZwieM9xuuCp)
+
+### Asciinema Brain-calc
+
+[![asciicast](https://asciinema.org/a/lfkcUWZjaKhAZXLd7xRNTtfYE.svg)](https://asciinema.org/a/lfkcUWZjaKhAZXLd7xRNTtfYE)
