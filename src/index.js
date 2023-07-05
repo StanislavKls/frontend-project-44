@@ -15,6 +15,7 @@ const game = (name, greeter, gameFun) => {
 };
 
 const checkAnswer = (answer, question) => {
+  // eslint-disable-next-line eqeqeq
   if (answer == question) {
     return true;
   }
