@@ -1,7 +1,7 @@
-const game = (name, gameFun) => {
+const game = (name, greeter, gameFun) => {
   let count = 0;
 
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
+  console.log(greeter);
 
   while (count < 3) {
     if (!gameFun()) {

@@ -19,4 +19,5 @@ const brainEven = () => {
 };
 
 const name = hello();
-game(name, brainEven);
+const greeter = 'Answer "yes" if the number is even, otherwise answer "no".';
+game(name, greeter, brainEven);

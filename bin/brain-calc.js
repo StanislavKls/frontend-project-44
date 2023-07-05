@@ -33,4 +33,5 @@ const brainCalc = () => {
 };
 
 const name = hello();
-game(name, brainCalc);
+const greeter = 'What is the result of the expression?';
+game(name, greeter, brainCalc);
