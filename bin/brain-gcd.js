@@ -28,4 +28,3 @@ const brainGcd = () => {
 const name = hello();
 const greeter = 'Find the greatest common divisor of given numbers.';
 game(name, greeter, brainGcd);
-
