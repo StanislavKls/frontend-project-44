@@ -1,4 +1,4 @@
-export default (name, gameFun) => {
+const game = (name, gameFun) => {
   let count = 0;
 
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
@@ -13,3 +13,12 @@ export default (name, gameFun) => {
     count += 1;
   }
 };
+
+const checkAnswer = (answer, question) => {
+  if (answer == question) {
+    return true;
+  }
+  console.log(`'${answer}' is wrong answer ;(. Correct answer was '${question}'.`);
+  return false;
+};
+export { checkAnswer, game };
